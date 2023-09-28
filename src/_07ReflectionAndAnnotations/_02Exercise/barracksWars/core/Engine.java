@@ -39,6 +39,4 @@ public class Engine implements Runnable {
 		}
 	}
 
-	// TODO: refactor for problem 4
-
 }

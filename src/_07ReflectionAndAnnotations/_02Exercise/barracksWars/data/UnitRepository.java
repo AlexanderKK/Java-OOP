@@ -38,8 +38,6 @@ public class UnitRepository implements Repository {
 	}
 
 	public void removeUnit(String unitType)  {
-		// TODO: implement for problem 4
-
 		if(amountOfUnits.containsKey(unitType) && amountOfUnits.get(unitType) > 0) {
 			int numberOfUnits = amountOfUnits.get(unitType);
 			amountOfUnits.put(unitType, numberOfUnits - 1);

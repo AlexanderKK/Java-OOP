@@ -12,8 +12,6 @@ public class UnitFactoryImpl implements UnitFactory {
 
 	@Override
 	public Unit createUnit(String unitType) {
-		// TODO: implement for problem 3
-
 		try {
 			Class unitClass = Class.forName(UNITS_PACKAGE_NAME + unitType);
 			Constructor<Unit> constructor = unitClass.getDeclaredConstructor();
