@@ -1,0 +1,2 @@
+Sum calories: 1250.68
+Average calories: 416.89
